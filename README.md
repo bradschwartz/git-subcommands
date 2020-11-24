@@ -29,8 +29,8 @@ cd $HOME/code/bradschwartz/git-subcommands # now created
 Tap my personal Homebrew Tap
 
 ```bash
-brew tap bradschwartz/bradschwartz
-brew install bradschwartz/bradschwartz/git-subcommands
+brew tap bradschwartz/tap
+brew install bradschwartz/tap/git-subcommands
 ```
 
 Or manually clone this repo and add to your `PATH`
