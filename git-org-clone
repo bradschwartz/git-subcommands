@@ -4,7 +4,7 @@ set -euo pipefail
 repo="${1}"
 code_dir="${HOME}/code"
 
-org="$(basename $(dirname ${repo}))"
+org="$(basename "$(dirname "${repo}")")"
 
 clone_loc="${code_dir}/${org}"
 
